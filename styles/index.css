@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --footer-height: 125px;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+section.welcome-page {
+    height: 100vh;
+}
+
+video.presentation
+{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -5;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: var(--header-height);
+}
+
+header nav ul.nav {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+
+header nav ul li {
+    text-transform: uppercase;
+}
+
+header nav ul.language{
+    list-style: none;
+    display: flex;
+    justify-content: start;
+} 
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: 0.2s opacity ease-in-out;
+}
+
+a:hover {
+    opacity: 0.70;
+}
+
+div.welcome-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - var(--header-height));
+}
+
+img.site-logo {
+    height: fit-content;
+    width: auto;
+}
+
+section#about-us {
+    display: flex;
+    align-items: center;
+    margin-top: 20vh;
+    font-size: 1.25rem;
+    width: 635px;
+    height: 654px;
+    margin-left: 12.5vw;
+    line-height: 26px;
+}
+
+section#about-us h2 {
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 7.5px;
+}
+
+
+section#about-us h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 0;
+    width: 30%;
+    border-bottom: 2px solid #fff;
+
+}
+
+span.more{
+    display: none;
+}
+
+.astronot {
+    height: 50vh;
+    width: 50vw;
+    position: absolute;
+    right: 0.5vw;
+}
+
+.astronot.mac {
+    height: 50vh;
+    width: 50vw;
+    position: absolute
+}
+
+.astronot.winzort {
+    height: 50vh;
+    width: 50vw;
+    position: absolute;
+}
+
+section#projects {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-bottom: 150px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+video.cover-image {
+    width: 30vw;
+    height: 30vh;
+    display: block;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+    z-index: 1;
+}
+div.sub-project {
+    position: relative;
+    overflow: hidden;
+}
+
+div.project-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, .4);
+    cursor:pointer;
+    z-index: 6;
+}
+
+div.project-details, video.cover-image {
+    transition: 200ms all ease-in-out;
+}
+
+div.sub-project:hover > div.project-details{
+    opacity: 1;
+}
+
+div.sub-project > .project-details.fade {
+    opacity: 0;
+}
+
+div.sub-project:hover > .project-details.fade{
+    filter: blur(0px);
+}
+
+div.sub-project:hover > video.cover-image.blur
+{
+    filter: blur(5px);
+}
+
+div.sub-project:hover > .cover-image.zoom
+{
+    transform: scale(1.1);
+}
+
+footer {
+    height: var(--footer-height);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+}
+
+footer ul.social-media {
+    list-style: none;
+    display: flex;
+    flex-direction: row;    
+    gap: 12.5px;
+    margin-top: 55px;
+    margin-left: 15px;
+}
+
+footer ul.social-media li {
+    font-size: 1.5em;
+}
+
+footer div.contact {
+    opacity: 0.51;
+    text-align: center;
+}
+
+video.cover-image
+{
+    width: 30vw;
+    height: 30vh;
+    display: block;
+}
+
+div.sub-project
+{
+    position: relative;
+    overflow: hidden;
+}
+
+div.project-details
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, .4);
+    cursor:pointer;
+}
+
+main {
+    transition: filter 0.2s ease-in-out;
+}
+
+iframe
+{
+    display: none;
+    width: 0px;
+    height: 0px;
+}
+
+div#pop-up.visible iframe
+{
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 50;
+    width: 50vw;
+    height: 50vh;
+}
+
+div#pop-up.visible + main
+{
+    filter: blur(5px);
+}
+
+img.pop-up-blur
+{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 9;
+    object-fit: cover;
+    display: none;
+}
+
+div#pop-up.visible + img.pop-up-blur
+{
+    display: block;
+    opacity: 0.85;
+}
