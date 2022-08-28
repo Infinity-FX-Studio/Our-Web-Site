@@ -179,6 +179,11 @@ div.project-details {
     z-index: 6;
 }
 
+#readMore:hover
+{
+    cursor: pointer;
+}
+
 div.project-details, video.cover-image {
     transition: 200ms all ease-in-out;
 }
