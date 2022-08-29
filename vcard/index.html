@@ -508,6 +508,12 @@
   h5{
     color: white;
   }
+  p.ref{
+    display: none;
+  }
+  p.ref.visible{
+    display: block;
+  }
 </style>
 
 <div class="container-fluid">
@@ -917,6 +923,10 @@
             copied = "Link copied: "
         }
         alert(copied + copyText.value);
+    }
+    const refer = document.querySelector('p.ref')
+    function open(){
+        refer.classList.add('visible')
     }
 
 </script>
