@@ -1,0 +1,38 @@
+body {
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	height: auto;
+    width: 100vw;
+	flex-direction: column;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+video.presentation {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -5;
+}
+
+div.apple{
+    
+}
+
+
+div.android {
+    
+}
+
+
