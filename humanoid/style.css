@@ -26,13 +26,20 @@ video.presentation {
     z-index: -5;
 }
 
-div.apple{
-    
+img.logo {
+    width: fit-content;
+    height: auto;
+    margin-bottom: 10vh;
 }
-
 
 div.android {
-    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
+button {
+    height: 5vh;
+    width: auto;
+}
 
