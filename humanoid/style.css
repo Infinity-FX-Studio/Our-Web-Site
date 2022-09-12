@@ -26,20 +26,51 @@ video.presentation {
     z-index: -5;
 }
 
+div.humanoid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 img.logo {
     width: fit-content;
     height: auto;
     margin-bottom: 10vh;
+    padding-top: 20vh;
 }
 
 div.android {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: .5rem;
 }
+
+div.apple {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: .5rem;
+    padding-top: 4rem;
+}
+
 
 button {
-    height: 5vh;
-    width: auto;
+   padding: 1rem;
+   width: 13rem;
+   background-color: black;
+   color: white;
+   font-size: small;
+   border-width: 1px;
+   border-color: white;
 }
 
+/* Responsive start */
+
+@media (max-width: 400px) {
+
+    img.logo {
+        height: auto;
+        width: 80vw;
+    }
+}
