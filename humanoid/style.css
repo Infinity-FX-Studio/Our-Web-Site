@@ -35,8 +35,8 @@ div.humanoid {
 img.logo {
     width: fit-content;
     height: auto;
-    margin-bottom: 10vh;
-    padding-top: 20vh;
+    margin-bottom: 5vh;
+    padding-top: 15vh;
 }
 
 div.android {
@@ -54,7 +54,6 @@ div.apple {
     padding-top: 4rem;
 }
 
-
 button {
    padding: 1rem;
    width: 13rem;
@@ -67,7 +66,7 @@ button {
 
 /* Responsive start */
 
-@media (max-width: 400px) {
+@media (max-width: 665px) {
 
     img.logo {
         height: auto;

@@ -613,3 +613,14 @@
         display: none;
     }
 }
+
+@media (max-width: 665px) {
+    div.sub-project:hover {
+        display: none;
+    }
+    
+    div.project-details {
+        display: none;
+    }
+}
+
