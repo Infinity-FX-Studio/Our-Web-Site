@@ -84,6 +84,20 @@ img.site-logo {
     width: auto;
 }
 
+div ul.social-media {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+    gap: 12.5px;
+    margin-top: 55px;
+    margin-left: 15px;
+}
+
+div ul.social-media li {
+    font-size: 1.5em;
+}
+
 section#about-us {
     display: flex;
     align-items: center;
@@ -217,19 +231,6 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding-left: 25px;
-}
-
-footer ul.social-media {
-    list-style: none;
-    display: flex;
-    flex-direction: row;    
-    gap: 12.5px;
-    margin-top: 55px;
-    margin-left: 15px;
-}
-
-footer ul.social-media li {
-    font-size: 1.5em;
 }
 
 footer div.contact {

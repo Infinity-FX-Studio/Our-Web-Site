@@ -8,7 +8,7 @@
         margin-top: 100vw;
     }
 
-    footer ul.social-media {
+    div ul.social-media {
         margin-top: 2vw;
         gap: 6.75px;
         flex-direction: row;
@@ -63,7 +63,7 @@
         margin-top: 100vw;
     }
 
-    footer ul.social-media {
+    div ul.social-media {
         margin-top: 2vw;
         gap: 6.75px;
         flex-direction: row;
@@ -139,7 +139,7 @@
         margin-top: 10vw;
     }
 
-    footer ul.social-media {
+    div ul.social-media {
         margin-top: 2vw;
         gap: 6.75px;
         flex-direction: row;
@@ -198,7 +198,7 @@
         margin-top: 15vw;
     }
 
-    footer ul.social-media {
+    div ul.social-media {
         margin-top: 0.5vw;
         gap: 6.75px;
         flex-direction: row;
@@ -266,7 +266,7 @@
         margin-top: 10vw;
     }
 
-    footer ul.social-media {
+    div ul.social-media {
         margin-top: 0.5vw;
         gap: 6.75px;
         flex-direction: row;
@@ -331,7 +331,7 @@
         margin-top: 17vw;
     }
 
-    footer ul.social-media {
+    div ul.social-media {
         margin-top: 0.5vw;
         gap: 6.75px;
         flex-direction: row;
@@ -401,7 +401,7 @@
         font-size: 2rem;
     }
 
-    footer ul.social-media {
+    div ul.social-media {
         margin-top: 0.5vw;
         gap: 6.75px;
         flex-direction: row;
@@ -474,7 +474,7 @@
         font-size: 2.2rem;
     }
 
-    footer ul.social-media {
+    div ul.social-media {
         margin-top: 0.5vw;
         gap: 6.75px;
         flex-direction: row;
@@ -553,7 +553,7 @@
         font-size: 2.9rem;
     }
 
-    footer ul.social-media {
+    div ul.social-media {
         margin-top: 0.5vw;
         gap: 6.75px;
         flex-direction: row;
