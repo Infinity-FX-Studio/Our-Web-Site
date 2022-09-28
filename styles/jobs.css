@@ -1,0 +1,157 @@
+/*Classic Elements Start*/
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-items: center;
+}
+
+body
+{
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	height: auto;
+	flex-direction: column;
+}
+
+html, body
+{
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+main
+{
+    width: 100vw;
+    height: auto;
+}
+
+/*Classic Elements End*/
+
+/*Header Start*/
+
+header
+{
+    width: 100vw;
+}
+
+img.headerLogo
+{
+    height: auto;
+    width: 20vw;
+    justify-content: flex-start;
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+
+/*Header End*/
+
+/*Main Start*/
+
+video.presentation
+{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -5;
+}
+
+section#generalist
+{
+    display: flex;
+    align-items: left;
+    width: 80%;
+    height: auto;
+    margin-top: 25vh;
+    margin-left: 7vw;
+    margin-bottom: 10vh;
+    line-height: 26px;
+    justify-items: center;
+    flex-direction: column;
+}
+
+section#generalist h3
+{
+    display: flex;
+    width: 30vw;
+    font-size: x-large;
+    justify-content: flex-start;
+}
+
+i.downButton
+{
+    margin-right: 1vw;
+    margin-top: .5vh;
+    padding: 0;
+    display: flex;
+    font-size: 15px;
+}
+
+hr {
+    width: 30vw;
+    margin-top: 1vh;
+}
+
+span.more
+{
+    display: none;
+}
+
+span.more.visible
+{
+    display: block;
+    font-weight: bold ;
+    color: #dddddd;
+}
+
+span.more1
+{
+    display: none;
+}
+
+span.more1.visible
+{
+    display: block;
+    font-weight: bold ;
+    color: #dddddd;
+}
+
+a.mail {
+    color: white;
+}
+
+section#manager
+{
+    display: flex;
+    align-items: left;
+    width: 80%;
+    height: auto;
+    margin-top: 20vh;
+    margin-left: 7vw;
+    margin-bottom: 10vh;
+    line-height: 26px;
+    justify-items: center;
+    flex-direction: column;
+}
+
+section#manager h3
+{
+    display: flex;
+    align-items: flex-start;
+    width: 33vw;
+    font-size: x-large;
+}
+
+/*Main End*/

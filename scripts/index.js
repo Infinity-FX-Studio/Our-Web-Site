@@ -39,14 +39,6 @@ anchor.addEventListener('click', function (e) {
 });
 });
 
-function Turkish(){
-    console.log("Turkish")
-}
-
-function English(){
-    console.log("English")
-}
-
 function readMore() {
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("more");
