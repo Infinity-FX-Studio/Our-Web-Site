@@ -26,6 +26,14 @@
     width:50vw;
     font-size: larger;
     }
+
+    section#motion h3
+    {
+    display: flex;
+    align-items: flex-start;
+    width:50vw;
+    font-size: larger;
+    }
 }
 
 @media (min-width: 429px) and (max-width: 665px) {
@@ -56,6 +64,14 @@
     width:40vw;
     font-size: larger;
     }
+
+    section#motion h3
+    {
+    display: flex;
+    align-items: flex-start;
+    width:40vw;
+    font-size: larger;
+    }
 }
 
 @media (min-width: 666px) and (max-width: 1199px) {
@@ -80,6 +96,14 @@
     }
 
     section#manager h3
+    {
+    display: flex;
+    align-items: flex-start;
+    width:40vw;
+    font-size: x-large;
+    }
+
+    section#motion h3
     {
     display: flex;
     align-items: flex-start;
@@ -124,6 +148,20 @@
     }
 
     section#manager 
+    {
+    font-size: larger;
+    margin-left: 5vw;
+    }
+
+    section#motion h3
+    {
+    display: flex;
+    align-items: flex-start;
+    width:40vw;
+    font-size: xx-large;
+    }
+
+    section#motion 
     {
     font-size: larger;
     margin-left: 5vw;
