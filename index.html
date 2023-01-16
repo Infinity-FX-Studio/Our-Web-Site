@@ -7,14 +7,20 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <title>777vfx</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./src/style/style.css" />
     <script src="./src/script/main.js" defer></script>
   </head>
   <body>
-    <header>
+    <header id="header">
       <div class="header__top-header">
         <h1></h1>
-        <button class="header__nav-button">
+        <button class="header__nav-button" onclick="changeNavigation()">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="1em"
@@ -29,15 +35,15 @@
           </svg>
         </button>
       </div>
-      <nav>
-        <ul>
+      <nav id="navigation"> 
+        <ul class="nav__project-list">
           <h3><a href="" class="nav__list-item">Projects</a></h3>
           <li><a href="" class="nav__list-item">Feature Films</a></li>
           <li><a href="" class="nav__list-item">Commercials</a></li>
           <li><a href="" class="nav__list-item">Reels</a></li>
           <li><a href="" class="nav__list-item">VFX Breakdown</a></li>
         </ul>
-        <ul>
+        <ul class="nav__skills-list">
           <h3><a href="" class="nav__list-item">Skills</a></h3>
           <li><a href="" class="nav__list-item">Concept Design</a></li>
           <li><a href="" class="nav__list-item">Shooting Supervision</a></li>
@@ -49,7 +55,7 @@
           <li><a href="" class="nav__list-item">Moiton Design</a></li>
           <li><a href="" class="nav__list-item">Color Grading</a></li>
         </ul>
-        <ul>
+        <ul class="nav__offices-list">
           <h3><a href="" class="nav__list-item">Offices</a></h3>
           <li><a href="" class="nav__list-item">France</a></li>
           <li><a href="" class="nav__list-item">Belgium</a></li>
