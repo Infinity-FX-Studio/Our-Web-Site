@@ -26,19 +26,26 @@ header {
   height: 20vh;
   display: flex;
   flex-direction: column;
-  background-color: #000000;
+  background-color: transparent;
   transition: height 2s, background-color 2s;
+  z-index: 99;
 }
 
 header.open {
   height: 100vh;
-  background-color: rgb(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 div.header__top-header {
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+
+img.header__logo {
+  width: 10%;
+  height: auto;
+  z-index: 100;
 }
 
 nav {
@@ -57,7 +64,7 @@ button.header__nav-button {
   background: none;
   border: none;
   font-size: 4rem;
-  color: #fff;
+  color: #000000;
 }
 
 ul {
@@ -78,4 +85,25 @@ a.nav__list-item {
 h3 a.nav__list-item {
   font-size: 4rem;
   font-weight: 300;
+}
+
+/*Section Hero*/
+
+section.section-hero{
+  width: 100vw;
+  height: 100vh;
+}
+
+video.section-hero__background-video{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/*Section About*/
+
+section.section-about{
+
 }
