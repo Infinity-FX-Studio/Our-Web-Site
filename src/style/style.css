@@ -92,6 +92,7 @@ h3 a.nav__list-item {
 section.section-hero{
   width: 100vw;
   height: 100vh;
+  background-color: #00000;
 }
 
 video.section-hero__background-video{
