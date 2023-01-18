@@ -127,16 +127,21 @@ p.section-about__top-text{
 
 div.section-about__projects-container{
   width: 100%;
-  height: auto;
+  height: 100%;
+  padding: 10rem;
   padding-top: 10rem;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  align-content: space-around;
+  flex-direction: row;
   justify-content: space-around;
+  align-content: space-around;
+  gap: 2rem;
 }
 
 div.project{
+  height: auto;
+  width: 30%;
+  aspect-ratio: 2/1;
   background-image: url(../../components/about-img__1.jpg);
   background-size: cover;
   background-position: center;
@@ -164,4 +169,3 @@ footer{
   display: flex;
   justify-content: space-around;
 }
-
