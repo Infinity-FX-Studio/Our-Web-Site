@@ -18,7 +18,7 @@ body {
   min-height: 100vh;
 }
 
-body.blocked{
+body.blocked {
   overflow-y: hidden;
 }
 
@@ -96,7 +96,7 @@ h3 a.nav__list-item {
 
 /*Section Hero*/
 
-section.section-hero{
+section.section-hero {
   position: relative;
   width: 100%;
   height: 100vh;
@@ -104,7 +104,7 @@ section.section-hero{
   z-index: 1;
 }
 
-video.section-hero__background-video{
+video.section-hero__background-video {
   position: absolute;
   top: 0;
   width: 100%;
@@ -114,7 +114,7 @@ video.section-hero__background-video{
 
 /*Section About*/
 
-section.section-about{
+section.section-about {
   width: 100%;
   height: auto;
   padding: 15rem 0;
@@ -123,13 +123,13 @@ section.section-about{
   align-items: center;
 }
 
-p.section-about__top-text{
+p.section-about__top-text {
   font-size: 3rem;
   font-weight: 300;
   margin: 0 20rem;
 }
 
-div.section-about__projects-container{
+div.section-about__projects-container {
   width: 100%;
   height: 100%;
   padding: 10rem;
@@ -142,7 +142,7 @@ div.section-about__projects-container{
   gap: 2rem;
 }
 
-div.project{
+div.project {
   height: auto;
   width: 30%;
   aspect-ratio: 2/1;
@@ -151,11 +151,11 @@ div.project{
   background-position: center;
 }
 
-div.project:hover{
+div.project:hover {
   background-image: url(../../components/Winamax_preview_clip.gif);
 }
 
-div.project h3{
+div.project h3 {
   color: #ffffff;
 }
 
@@ -165,7 +165,7 @@ div.project p {
 
 /*Footer*/
 
-footer{
+footer {
   padding: 10rem 0;
   width: 100%;
   height: 60rem;
@@ -176,23 +176,25 @@ footer{
   flex-direction: column;
 }
 
-div.footer__top-container{
+div.footer__top-container {
   width: 50%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-div.footer__bottom-container{
+div.footer__bottom-container {
   text-align: center;
 }
 
-a.footer__adress, a.footer__phone{
+a.footer__adress,
+a.footer__phone {
   color: #ffffff;
   text-decoration: none;
-  transition: color .4s;
+  transition: color 0.4s;
 }
 
-a.footer__adress:hover, a.footer__phone:hover{
+a.footer__adress:hover,
+a.footer__phone:hover {
   color: #c5c5c5;
 }
