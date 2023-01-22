@@ -18,6 +18,10 @@ body {
   min-height: 100vh;
 }
 
+body.blocked{
+  overflow-y: hidden;
+}
+
 /*Header*/
 
 header {
@@ -168,4 +172,27 @@ footer{
   background-color: #000000;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+div.footer__top-container{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+div.footer__bottom-container{
+  text-align: center;
+}
+
+a.footer__adress, a.footer__phone{
+  color: #ffffff;
+  text-decoration: none;
+  transition: color .4s;
+}
+
+a.footer__adress:hover, a.footer__phone:hover{
+  color: #c5c5c5;
 }
